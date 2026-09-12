@@ -1,0 +1,8 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Connecting to CrossPost...</title>
+<script>
+  location.replace("crosspost://oauth/tiktok" + location.search);
+</script>
+<p>Returning to the app... <a id="l">Tap here if nothing happens.</a></p>
+<script>document.getElementById("l").href = "crosspost://oauth/tiktok" + location.search;</script>
